@@ -762,7 +762,7 @@ Copyright (c) 2011 by Harvest
         _this = this;
 
       choice = $('<li />', {
-        "class": "search-choice"
+        "class": "search-choice " + item.classes
       }).html("<span>" + item.html + "</span>");
       if (item.disabled) {
         choice.addClass('search-choice-disabled');
